@@ -1,0 +1,937 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, figure {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+}
+div.Basic-Text-Frame {
+	border-style:solid;
+}
+table.Basic-Table {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:3px;
+	margin-top:3px;
+}
+td.Basic-Table, th.Basic-Table {
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	vertical-align:top;
+}
+table.スクリプト表 {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:6px;
+	margin-top:0px;
+}
+td.スクリプト表, th.スクリプト表 {
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	vertical-align:top;
+}
+table.表スタイル-1 {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:6px;
+	margin-top:0px;
+}
+td.表スタイル-1, th.表スタイル-1 {
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	vertical-align:top;
+}
+td.スクリプトボディ {
+	background-color:#dcdddd;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:11px;
+	padding-right:0px;
+	padding-top:0px;
+	vertical-align:top;
+}
+p.KAGEXスクリプト {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro R", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.KAGEXスクリプト表 {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro R", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Basic-Paragraph {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro R", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:17px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:11px;
+	text-transform:none;
+	widows:1;
+}
+p.前書き後書き {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro B", sans-serif;
+	font-size:17px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1;
+	margin-bottom:17px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:11px;
+	text-transform:none;
+	widows:1;
+}
+p.基本段落マージンなし {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro R", sans-serif;
+	font-size:17px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.333;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:11px;
+	text-transform:none;
+	widows:1;
+}
+p.引用 {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro R", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:17px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:11px;
+	text-transform:none;
+	widows:1;
+}
+p.目次---タイトル {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro H", sans-serif;
+	font-size:23px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1;
+	margin-bottom:0;
+	margin-left:113px;
+	margin-right:0;
+	margin-top:17px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.目次---章 {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro B", sans-serif;
+	font-size:17px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.333;
+	margin-bottom:0;
+	margin-left:9px;
+	margin-right:0;
+	margin-top:17px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.目次---節 {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro M", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0;
+	margin-left:28px;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+li.章タイトル {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro H", sans-serif;
+	font-size:23px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:0;
+	margin-left:40px;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+li.節タイトル, p.節タイトル {
+	color:#000000;
+	font-family:"Kozuka Gothic Pro B", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	list-style-position:inside;
+	list-style-type:square;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span.hyperLink {
+	color:#00a1e9;
+}
+span.本文中スクリプト {
+	text-decoration:none;
+}
+table.TableOverride-1 {
+	border-collapse:collapse;
+	border-width:1px;
+}
+table.TableOverride-2 {
+	border-collapse:collapse;
+}
+td.CellOverride-1 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-2 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-3 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-4 {
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-5 {
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-6 {
+	border-bottom-color:#000000;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-7 {
+	border-bottom-color:#000000;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-8 {
+	border-bottom-color:#000000;
+	border-bottom-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-9 {
+	border-bottom-color:#000000;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-top-color:#000000;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-10 {
+	border-bottom-color:#000000;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-11 {
+	border-bottom-color:#000000;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-top-color:#000000;
+	border-top-width:1px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-12 {
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+td.CellOverride-13 {
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-top-color:#000000;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:3px;
+}
+p.ParaOverride-1 {
+	margin-bottom:9px;
+}
+p.ParaOverride-2 {
+	margin-bottom:34px;
+}
+p.ParaOverride-3 {
+	margin-bottom:14px;
+}
+p.ParaOverride-4 {
+	text-align:center;
+}
+span.CharOverride-1 {
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	color:#000000;
+}
+span.CharOverride-3 {
+	-webkit-text-combine:horizontal;
+}
+li._idGenParaOverride-1 {
+	margin-left:-40px;
+}
+col._idGenTableRowColumn-1 {
+	width:67px;
+}
+col._idGenTableRowColumn-2 {
+	width:361px;
+}
+tr._idGenTableRowColumn-3 {
+	height:17px;
+}
+col._idGenTableRowColumn-4 {
+	width:430px;
+}
+tr._idGenTableRowColumn-5 {
+	background-color:#dcdddd;
+	height:34px;
+}
+tr._idGenTableRowColumn-6 {
+	background-color:#dcdddd;
+	height:85px;
+}
+tr._idGenTableRowColumn-7 {
+	background-color:#dcdddd;
+	height:148px;
+}
+tr._idGenTableRowColumn-8 {
+	background-color:#dcdddd;
+	height:32px;
+}
+tr._idGenTableRowColumn-9 {
+	background-color:#dcdddd;
+	height:33px;
+}
+tr._idGenTableRowColumn-10 {
+	background-color:#dcdddd;
+	height:201px;
+}
+tr._idGenTableRowColumn-11 {
+	background-color:#dcdddd;
+	height:117px;
+}
+tr._idGenTableRowColumn-12 {
+	background-color:#dcdddd;
+	height:133px;
+}
+tr._idGenTableRowColumn-13 {
+	background-color:#dcdddd;
+	height:199px;
+}
+tr._idGenTableRowColumn-14 {
+	background-color:#dcdddd;
+	height:81px;
+}
+tr._idGenTableRowColumn-15 {
+	background-color:#dcdddd;
+	height:82px;
+}
+tr._idGenTableRowColumn-16 {
+	background-color:#dcdddd;
+	height:254px;
+}
+tr._idGenTableRowColumn-17 {
+	background-color:#dcdddd;
+	height:169px;
+}
+tr._idGenTableRowColumn-18 {
+	background-color:#dcdddd;
+	height:152px;
+}
+tr._idGenTableRowColumn-19 {
+	background-color:#dcdddd;
+	height:84px;
+}
+tr._idGenTableRowColumn-20 {
+	background-color:#dcdddd;
+	height:204px;
+}
+tr._idGenTableRowColumn-21 {
+	background-color:#dcdddd;
+	height:268px;
+}
+tr._idGenTableRowColumn-22 {
+	background-color:#dcdddd;
+	height:183px;
+}
+tr._idGenTableRowColumn-23 {
+	background-color:#dcdddd;
+	height:167px;
+}
+tr._idGenTableRowColumn-24 {
+	background-color:#dcdddd;
+	height:68px;
+}
+tr._idGenTableRowColumn-25 {
+	background-color:#dcdddd;
+	height:182px;
+}
+tr._idGenTableRowColumn-26 {
+	background-color:#dcdddd;
+	height:286px;
+}
+tr._idGenTableRowColumn-27 {
+	background-color:#dcdddd;
+	height:185px;
+}
+tr._idGenTableRowColumn-28 {
+	background-color:#dcdddd;
+	height:151px;
+}
+tr._idGenTableRowColumn-29 {
+	background-color:#dcdddd;
+	height:101px;
+}
+tr._idGenTableRowColumn-30 {
+	background-color:#dcdddd;
+	height:237px;
+}
+tr._idGenTableRowColumn-31 {
+	background-color:#dcdddd;
+	height:67px;
+}
+tr._idGenTableRowColumn-32 {
+	background-color:#dcdddd;
+	height:203px;
+}
+tr._idGenTableRowColumn-33 {
+	background-color:#dcdddd;
+	height:135px;
+}
+tr._idGenTableRowColumn-34 {
+	background-color:#dcdddd;
+	height:302px;
+}
+tr._idGenTableRowColumn-35 {
+	background-color:#dcdddd;
+	height:217px;
+}
+tr._idGenTableRowColumn-36 {
+	background-color:#dcdddd;
+	height:285px;
+}
+tr._idGenTableRowColumn-37 {
+	background-color:#dcdddd;
+	height:288px;
+}
+tr._idGenTableRowColumn-38 {
+	background-color:#dcdddd;
+	height:219px;
+}
+tr._idGenTableRowColumn-39 {
+	background-color:#dcdddd;
+	height:150px;
+}
+tr._idGenTableRowColumn-40 {
+	background-color:#dcdddd;
+	height:218px;
+}
+tr._idGenTableRowColumn-41 {
+	background-color:#dcdddd;
+	height:216px;
+}
+tr._idGenTableRowColumn-42 {
+	background-color:#dcdddd;
+	height:200px;
+}
+tr._idGenTableRowColumn-43 {
+	background-color:#dcdddd;
+	height:83px;
+}
+tr._idGenTableRowColumn-44 {
+	background-color:#dcdddd;
+	height:166px;
+}
+tr._idGenTableRowColumn-45 {
+	background-color:#dcdddd;
+	height:270px;
+}
+tr._idGenTableRowColumn-46 {
+	background-color:#dcdddd;
+	height:153px;
+}
+tr._idGenTableRowColumn-47 {
+	background-color:#dcdddd;
+	height:170px;
+}
+tr._idGenTableRowColumn-48 {
+	background-color:#dcdddd;
+	height:267px;
+}
+tr._idGenTableRowColumn-49 {
+	background-color:#dcdddd;
+	height:252px;
+}
+tr._idGenTableRowColumn-50 {
+	background-color:#dcdddd;
+	height:373px;
+}
+tr._idGenTableRowColumn-51 {
+	background-color:#dcdddd;
+	height:271px;
+}
+tr._idGenTableRowColumn-52 {
+	background-color:#dcdddd;
+	height:269px;
+}
+tr._idGenTableRowColumn-53 {
+	background-color:#dcdddd;
+	height:184px;
+}
+tr._idGenTableRowColumn-54 {
+	background-color:#dcdddd;
+	height:205px;
+}
+tr._idGenTableRowColumn-55 {
+	background-color:#dcdddd;
+	height:50px;
+}
+tr._idGenTableRowColumn-56 {
+	background-color:#dcdddd;
+	height:408px;
+}
+tr._idGenTableRowColumn-57 {
+	background-color:#dcdddd;
+	height:476px;
+}
+tr._idGenTableRowColumn-58 {
+	background-color:#dcdddd;
+	height:354px;
+}
+tr._idGenTableRowColumn-59 {
+	background-color:#dcdddd;
+	height:236px;
+}
+tr._idGenTableRowColumn-60 {
+	background-color:#dcdddd;
+	height:335px;
+}
+tr._idGenTableRowColumn-61 {
+	background-color:#dcdddd;
+	height:255px;
+}
+tr._idGenTableRowColumn-62 {
+	background-color:#dcdddd;
+	height:100px;
+}
+tr._idGenTableRowColumn-63 {
+	background-color:#dcdddd;
+	height:99px;
+}
+tr._idGenTableRowColumn-64 {
+	background-color:#dcdddd;
+	height:305px;
+}
+tr._idGenTableRowColumn-65 {
+	background-color:#dcdddd;
+	height:64px;
+}
+tr._idGenTableRowColumn-66 {
+	background-color:#dcdddd;
+	height:118px;
+}
+tr._idGenTableRowColumn-67 {
+	background-color:#dcdddd;
+	height:119px;
+}
+tr._idGenTableRowColumn-68 {
+	background-color:#dcdddd;
+	height:115px;
+}
+tr._idGenTableRowColumn-69 {
+	background-color:#dcdddd;
+	height:114px;
+}
+tr._idGenTableRowColumn-70 {
+	background-color:#dcdddd;
+	height:98px;
+}
+tr._idGenTableRowColumn-71 {
+	background-color:#dcdddd;
+	height:186px;
+}
+tr._idGenTableRowColumn-72 {
+	background-color:#dcdddd;
+	height:48px;
+}
+tr._idGenTableRowColumn-73 {
+	background-color:#dcdddd;
+	height:31px;
+}
+#_idContainer003 {
+	display:inline-block;
+	height:302px;
+	width:370px;
+}
+#_idContainer004 {
+	display:inline-block;
+	height:208px;
+	width:268px;
+}
+#_idContainer007 {
+	display:inline-block;
+	height:160px;
+	width:210px;
+}
+#_idContainer008 {
+	display:inline-block;
+	height:263px;
+	width:394px;
+}
+#_idContainer009 {
+	display:inline-block;
+	height:126px;
+	width:391px;
+}
+#_idContainer010 {
+	display:inline-block;
+	height:179px;
+	width:223px;
+}
+#_idContainer011 {
+	display:inline-block;
+	height:198px;
+	width:247px;
+}
+#_idContainer012, #_idContainer013 {
+	display:inline-block;
+	height:164px;
+	width:207px;
+}
+#_idContainer015 {
+	display:inline-block;
+	height:196px;
+	width:262px;
+}
+#_idContainer016 {
+	display:inline-block;
+	height:179px;
+	width:229px;
+}
+#_idContainer017, #_idContainer018 {
+	display:inline-block;
+	height:196px;
+	width:227px;
+}
+#_idContainer019 {
+	display:inline-block;
+	height:179px;
+	width:238px;
+}
+#_idContainer020 {
+	display:inline-block;
+	height:301px;
+	width:228px;
+}
+#_idContainer022 {
+	display:inline-block;
+	height:231px;
+	width:429px;
+}
+#_idContainer024, #_idContainer026, #_idContainer027, #_idContainer028, #_idContainer029 {
+	display:inline-block;
+	height:173px;
+	width:230px;
+}
+#_idContainer025 {
+	display:inline-block;
+	height:641px;
+	width:431px;
+}
+#_idContainer030 {
+	display:inline-block;
+	height:148px;
+	width:195px;
+}
+img._idGenObjectAttribute-1 {
+	height:100.00%;
+	min-width:100%;
+	width:100.00%;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}
+div._idGenObjectLayout-1 {
+	text-align:center;
+}
